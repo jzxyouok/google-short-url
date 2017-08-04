@@ -6,6 +6,7 @@ yii2 接入google 短链服务
 引入方法：
 1. 把ShortenUrl.php下载，放到项目 components目录下
 2. 在main.php中配置相关信息
+```
   components => [
     ....
     'short_url' => [
@@ -14,6 +15,7 @@ yii2 接入google 短链服务
     ],
     ....
   ];
+ ```
   
 3. 使用：
 use Yii;
